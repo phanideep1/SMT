@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Clock
+Bundle-SymbolicName: edu.umkc.smt.sarika.myextension.clock;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.smt.sarika.myextension.clock.Activator
+Bundle-Vendor: Sarika
+Require-Bundle: org.eclipse.core.runtime,
+ edu.umkc.smt.sarika.myextension.tetris
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

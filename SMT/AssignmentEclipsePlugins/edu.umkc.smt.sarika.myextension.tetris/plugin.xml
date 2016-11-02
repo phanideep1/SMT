@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="edu.umkc.smt.sarika.myextension.clock" name="ClockGame" schema="schema/edu.umkc.smt.sarika.myextension.clock.exsd"/>
+   <extension
+         point="edu.umkc.sarika.myplugin.tetris">
+      <game
+            class="edu.umkc.smt.sarika.myextension.tetris.TetrisBoard">
+      </game>
+   </extension>
+
+</plugin>

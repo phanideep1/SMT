@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tetris
+Bundle-SymbolicName: edu.umkc.smt.sarika.myextension.tetris;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.smt.sarika.myextension.tetris.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ edu.umkc.smt.sarika.plugin;bundle-version="1.0.0",
+ edu.umkc.smt.sarika.myextension.tetris
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Sarika
+Export-Package: edu.umkc.smt.sarika.myextension.clock,
+ edu.umkc.smt.sarika.myextension.clock2
+Import-Package: assgn.smt.tetris.game,
+ edu.umkc.smt.sarika.myextension.clock,
+ edu.umkc.smt.sarika.myextension.clock2
